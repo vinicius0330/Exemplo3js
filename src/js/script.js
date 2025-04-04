@@ -57,3 +57,20 @@ console.log(numInt.toString())
 
 let numString1 ="120"
 console.log(parseInt(numString1))
+
+// METODOS
+
+// METODO LENGTH - VERIFICA O TAMANHO DA STRING
+
+let frase ="O mundo da tecnologia";
+console.log(frase.length)
+
+// METODO indexof/lastindexof - RETORNA UM TRECHO DO SEU CODIGO
+
+let texto ="Programação Sustentável";
+console.log(texto.indexOf("ão"))
+
+//METODO slice - RETORNA PARTE DE UM TEXTO PASSANDO INICIO E O FINAL
+
+let info ="Programação de ponta";
+console.log(info.slice(15,20))
