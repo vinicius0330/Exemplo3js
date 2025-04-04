@@ -103,3 +103,5 @@ const f=30;
 console.log(e == f); //comparação
 console.log(e === f); //comparação e tipo
 console.log(e != f); 
+
+// CONDICIONAL
