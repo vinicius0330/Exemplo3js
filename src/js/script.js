@@ -70,7 +70,36 @@ console.log(frase.length)
 let texto ="Programação Sustentável";
 console.log(texto.indexOf("ão"))
 
-//METODO slice - RETORNA PARTE DE UM TEXTO PASSANDO INICIO E O FINAL
+// METODO slice - RETORNA PARTE DE UM TEXTO PASSANDO INICIO E O FINAL
 
 let info ="Programação de ponta";
 console.log(info.slice(15,20))
+
+// OPERADORES ARITMÉTICOS
+
+const a=10;
+const b=20;
+
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+
+// OPERADORES LÓGICOS
+
+const c=20;
+const d=30;
+
+console.log(c < d);
+console.log(c > d && c > 10);
+console.log(c > d || d > c);
+console.log(c == d || d <= c);
+
+// OPERADORES DE COMPARAÇÃO
+
+const e=10;
+const f=30;
+
+console.log(e == f); //comparação
+console.log(e === f); //comparação e tipo
+console.log(e != f); 
