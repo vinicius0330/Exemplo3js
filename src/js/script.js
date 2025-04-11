@@ -163,3 +163,23 @@ console.log(resultado);
 let nota=100;
 let resultado1 = nota >=65 ? "Passou!": "Reprovado!";
 console.log(resultado1)
+
+// ESTRUTURAS DE REPETIÇÃO
+//For 
+for(let i=0; i<10;i++){
+    console.log("o valor de i é", i)
+}
+//while
+let t=0;
+
+while(t < 10){
+    console.log("o valor de t é",t)
+    t++;
+}
+// do while
+let w = 0;
+do{
+    console.log("do while",w)
+    w++;
+}while(w <= 20)
+// jogo de adivinhação
