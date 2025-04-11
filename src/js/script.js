@@ -105,3 +105,61 @@ console.log(e === f); //comparação e tipo
 console.log(e != f); 
 
 // CONDICIONAL
+//If
+if(true){
+    console.log("é verdadeiro")
+}
+
+let exemplo2 = 1
+if(exemplo2 == 1){
+    console.log("está correto")
+}
+//If/else
+let nome1 ="Fiap"
+if(nome1 == "Fiap"){
+    console.log("Nome correto")
+    // document.write("Nome certo")
+}
+else{
+    console.log("Nome errado")
+    // document.write("Nome errado")
+}
+//If encadeado ou alinhado
+
+let idade1 =14;
+if(idade1 <=14){
+    console.log("Não pode entrar é menor")
+}
+else if(idade1 >14 && idade1 <=18){
+    console.log("pode entrar e curtir")
+}
+else if(idade1 >18 && idade1 <=50){
+    console.log("Perigo seus pais estão na balada")
+}
+else{
+    console.log("você deve ficar em casa vendo netflix")
+}
+// switch case
+let time ="Corinthians"
+
+switch(time){
+    case "Corinthians":
+        console.log("Melhor time")
+        break;
+    case "São Paulo":
+        console.log("É bosta")
+        break;
+    case "Palmeiras":
+        console.log("Sem mundial")
+        break;
+    default:
+        console.log("....(prantos)")
+}
+//Ternario
+let valor=100;
+let resultado = valor ==100 ? "Valor Certo": "Valor Errado";    // ? -> If, : -> Else
+console.log(resultado);
+
+let nota=100;
+let resultado1 = nota >=65 ? "Passou!": "Reprovado!";
+console.log(resultado1)
