@@ -182,14 +182,22 @@ do{
     console.log("do while",w)
     w++;
 }while(w <= 20)
+
 // Jogo de adivinhação
 
 //declaração de variável indefinida
-let palpite;
-const sorteio = Math.floor(Math.random() * 10)+1;
+// let palpite;
+// const sorteio = Math.floor(Math.random() * 10)+1;
 
-do{
-    palpite = parseInt(prompt("Escolha um numero entre 1 e 10"))
-}while(palpite !== sorteio)
+// do{
+//     palpite = parseInt(prompt("Escolha um numero entre 1 e 10"))
+// }while(palpite !== sorteio)
 
-    alert(`Parabéns você GANHOU o jogo ${palpite}`)
+//     alert(`Parabéns você GANHOU o jogo ${palpite}`)
+
+// Funções
+function saudacao(nome){
+    console.log(`Seja Bem-vindo ${nome}`) //1°Opção
+    // console.log("Seja Bem-vindo",nome) 2°Opção
+}
+saudacao("Fiap")
