@@ -176,10 +176,20 @@ while(t < 10){
     console.log("o valor de t é",t)
     t++;
 }
-// do while
+//do while
 let w = 0;
 do{
     console.log("do while",w)
     w++;
 }while(w <= 20)
-// jogo de adivinhação
+// Jogo de adivinhação
+
+//declaração de variável indefinida
+let palpite;
+const sorteio = Math.floor(Math.random() * 10)+1;
+
+do{
+    palpite = parseInt(prompt("Escolha um numero entre 1 e 10"))
+}while(palpite !== sorteio)
+
+    alert(`Parabéns você GANHOU o jogo ${palpite}`)
